@@ -47,36 +47,172 @@ dev_dependencies:
   # rules and activating additional ones.
   flutter_lints: ^2.0.0
 
-##-- state management --##
-  get: ^4.6.6
-
 ##-- UI --##
   quds_ui_kit: ^0.0.7+10              # widget collection
+  flame: ^1.10.0
+
   flutter_gen: ^5.3.2                 # generate pubspec
-  shimmer: ^3.0.0                     # shimmer
+
+
   flutter_svg: ^2.0.9                 # svg
-  convex_bottom_bar: ^3.2.0          # ??
-  flutter_filter_dialog: ^1.2.0      # ??
-  flutter_improved_scrolling: ^0.0.3 # ??
-  expandable: ^5.0.1 # ??
-  fsearch_nullsafety: ^2.0.0 # ??
+  svg_path_parser: ^1.1.1             # ?? svg path parser
+  animated_svg: ^2.0.0                # ?? animated svg
+  path_drawing: ^1.0.1                # path drawing
+
+  fl_chart: ^0.64.0                   # chart
+  syncfusion_flutter_charts: ^23.1.43 # chart
+
+  file_picker: ^6.0.0                 # file picker
+  better_open_file: ^3.6.4            # ?? file picker (without permissions)
+
+  awesome_notifications: ^0.8.2       # notifications
+
+  qr_code_scanner: ^1.0.1             # qr code scanner
+
+  draggable_home: ^1.0.5              # draggable screen (show/hide header/body)
+
+  animations: ^2.0.8                  # animation controller
+  flutter_animate: ^4.2.0+1           # animation controller
+  spring: ^2.0.2                      # ?? animation controller
+  animate_do: ^3.1.2                  # ?? animation controller
+
+  touchable: ^1.0.2                   # ?? touchable widget (gestures and animations)
+  animated_toggle_switch: ^0.8.0      # ?? animated toggle
+  confetti: ^0.7.0                    # ?? animate stars
+  like_button: ^2.0.5                 # ?? like button
+  progress_state_button: ^1.0.4
+  swipeable_button_view: ^0.0.2       # ?? button swipe loading and open page
+  fsearch_nullsafety: ^2.0.0          # ?? search box (camera/mic/..)
+
+  shimmer: ^3.0.0                     # shimmer
+
+  indexed_list_view: ^2.0.2           # ?? indexed listview
+  flutter_scroll_to_top: ^2.3.0       # ?? scroll to top list
+  select_dialog: ^2.0.1               # ?? select list dialog
+  group_button: ^5.3.3                # ?? select list/grid dialog
+  flutter_filter_dialog: ^1.2.0       # ?? filter dialog
+
+  syncfusion_flutter_gauges: ^23.1.43 # ?? gauge stepper
+  easy_stepper: ^0.8.1                # ?? stepper
+  im_stepper: ^1.0.1+1                # ?? stepper
+
+  spflutter_number_picker: ^1.5.0     # ?? number_picker
+
+  circular_countdown_timer: ^0.2.3    # ?? countdown timer
+
+  intro_views_flutter: ^3.2.0         # ?? intro views (first app lunch)
+
+  expandable: ^5.0.1                  # ?? expandable widget
+
+  horizontal_card_pager: ^1.1.1       # ?? horizontal widget <= Set Custom
+  card_swiper: ^3.0.1                 # ?? horizontal widget <= Set Custom
+  horizontal_list: ^0.0.7             # ?? horizontal widget <= Set Custom
+  carousel_slider: ^4.2.1
+
+  flutter_keyboard_visibility: ^5.4.1 # ?? keyboard visibility changes
+
+  dash_chat_2: ^0.0.19                # ?? chat screen
+
+  flutter_improved_scrolling: ^0.0.3  # ?? scrolling (Web/Desktop)
+
+  beamer: ^1.5.6                      # ?? navigation screens (Desktop/Web) [Get?]
+
+  top_snackbar_flutter: ^3.1.0        # ?? top snack bar
+
+  image_picker: ^1.0.4                # ?? image picker
+  image_watermark: ^0.0.5
+  camerawesome: ^1.4.0
+
+  audioplayers: ^5.2.0                # ?? audio players
+
+  dropdown_button2: ^2.3.9            # ?? combo box (select item)
+  circular_menu: ^2.0.1               # ?? circular menu
+  star_menu: ^3.1.4                   # ?? star menu (fab button & popup menu)
+  flutter_expandable_fab: ^2.0.0
+
+  slide_popup_dialog_null_safety: ^1.0.0
+
+  convex_bottom_bar: ^3.2.0           # ?? bottom bar Navigation screens
+  animated_notch_bottom_bar: ^1.0.0   # ?? bottom bar Navigation screens
+  google_nav_bar: ^5.0.6              # ?? bottom bar Navigation screens
+  curved_drawer_fork: ^0.0.1+1        # ?? vertical tab bar
+  scroll_navigation: ^1.3.2           # ?? scroll navigation
+
+  smooth_page_indicator: ^1.1.0       # ?? page indicator (dot in button image/screen)
+  dots_indicator: ^3.0.0
+
+  flutter_floating_bottom_bar: ^1.2.0 # ?? floating bottom bar (hide/show on scroll list)
+  floating_bottom_bar: ^0.0.2         # ?? floating bottom bar (hide/show on scroll list)
+
+  autocomplete_textfield: ^2.0.1      # ?? autocomplete text field
+
+  persian_linear_date_picker: ^0.0.2  # ?? persian date picker
+  sps_persian_datetime_picker: ^2.0.0 # ?? persian date picker
+
+  flutter_screen_scaler: ^2.1.0       # ?? responsive
+  responsive_sizer: ^3.2.0            # ?? responsive
+
+  google_fonts: ^6.1.0
+
+  cupertino_icons: ^1.0.6
+
 
 
 ##-- SETTING --##
-  package_info_plus: ^4.2.0
+  package_info_plus: ^4.2.0           # package info
   wakelock: ^0.6.2                    # wakelock
-  confetti: ^0.7.0                    # animate stars
 
-  #beamer: ^1.5.6
 
 ##-- UTILITY --##
-  persian_number_utility: ^1.1.3      # persian utility
+  get: ^4.6.6                         # state management
+  flutter_bloc: ^8.1.3                # ?? state management
+  bloc: ^8.1.2                        # ?? state management
+
+  http: ^1.1.0                        # http management
+  dio: ^5.3.3
+
+  flutter_blue: ^0.8.0                # ?? bluetooth management
+
+  formz: ^0.6.1                       # ?? validation
+
+  permission_handler: ^11.0.1         # permission
+  path_provider: ^2.1.1
+
+  network_info_plus: ^4.1.0
+
+  device_info_plus: ^9.1.0
+
+
+  icons_launcher: ^2.1.4
+
+  url_launcher: ^6.2.1
+
+  in_app_review: ^2.0.8
+
+  flutter_secure_storage: ^9.0.0 # ????????          -------------------------
+
+  shared_preferences: ^2.2.2          # save little values
   printing: ^5.11.0                   # printing
-  share_plus: ^7.2.1
-  archive: ^3.4.6  # ??
-  connectivity_plus: ^5.0.1  # ??
-  permission_handler: ^11.0.1
-  location: ^5.0.3 #??
+  vibration: ^1.8.3                   # vibration controller
+  share_plus: ^7.2.1                  # share content
+  speech_to_text: ^6.4.0
+
+  xml: ^6.4.2                         # ?? xml parser
+  persian_number_utility: ^1.1.3      # ?? persian utility
+  archive: ^3.4.6                     # ?? encode/decode zip
+  connectivity_plus: ^5.0.1           # ?? net connect status
+  location: ^5.0.3                    # ?? location Android/iOS
+  flutter_downloader: ^1.11.4         # ?? downloader
+  flutter_app_name: ^0.1.1            # ?? change app name command (customized is sp_flutter_rename_app)
+  platform_info: ^4.0.2               # ?? BuildMode / HostPlatform / OperatingSystem
+  open_file: ^3.3.2                   # ?? open files with string
+  time_machine: ^0.9.17               # ?? time manager
+
+  objectbox: ^2.3.1                   # ?? DB
+  realm: ^1.5.0                       # ?? DB
+  hive: ^2.2.3                        # ?? DB
+  isar: ^3.1.0+1                      # ?? DB
+  freezed: ^2.4.5                     # ?? DB
 
 
 # For information on the generic Dart part of this file, see the
